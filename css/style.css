@@ -1,0 +1,164 @@
+#logo{
+	height: auto;
+	background-image: url(../img/header.png);
+}
+#subjects>li>a  {
+	list-style-type: circle;
+	font-size: 20px;
+}
+#subjects>li>a:hover  {
+	color: red;
+}
+#subjects {
+
+}
+.page-footer{
+	background-color: #316DB5;
+}
+
+#content {
+	background-color: rgba(221,214,189,0.9);
+}
+
+.navbar {
+	background: -webkit-linear-gradient(top, rgba(61,158,209,1) 0%, rgba(53,144,192,1) 25%, rgba(33,104,145,1) 69%, rgba(25,89,128,1) 90%, rgba(23,84,122,1) 100%);
+}
+
+#slider {
+	width: 680px;
+	height: 452px;
+}
+
+@media only screen and (max-width: 768px){
+	.navbar{
+		background-color: #1C2331; 
+	}
+}
+
+li.active {
+	color: #fff;
+}
+
+a:hover {
+	color: red;
+}
+
+#news1 {
+	width: 200px;
+	height: 90px;
+}
+
+#news-text {
+	font-size: 15px;
+}
+
+#views {
+	font-size: 10px;
+	text-decoration: underline;
+	color: blue;
+}
+
+#footer {
+	background-color: rgba(0,37,62,0.8);
+}
+
+#question	{
+	height: 140px;
+	width: 110px;
+}
+
+@media (max-width: 991px){
+	#article {
+		text-align: center;
+	}
+}
+
+.peach-gradient {
+	background: linear-gradient(40deg,#fc6262,#ffd86f)!important;
+}
+body {
+	background: #DDD6BD;
+}
+
+.treeview label {
+	margin: 0;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 14px;
+	vertical-align: top;
+	cursor: pointer;
+}
+.treeview input {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.text-black-40 {
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.sp {
+	padding-bottom: 60px;
+}
+
+.dark-orange-text {
+	color: #fc9228;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.blue-gr {
+	background: -webkit-linear-gradient(top, rgba(61,158,209,1) 0%, rgba(53,144,192,1) 25%, rgba(33,104,145,1) 69%, rgba(25,89,128,1) 90%, rgba(23,84,122,1) 100%); 
+}
+
+.font-small-2 {
+	font-size: 12px;
+}
+
+.nav-text {
+	padding-top: 5px;
+	color: white;
+}
+.login-p {
+	margin: 0px !important;
+	color: #fff;
+	padding-right: 20px;
+	padding-top: 9px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+.delete-btn-wrapper {
+	position: relative;
+}
+.delete-btn {
+	position: absolute !important;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+}
+.trash {
+	position: absolute;
+	top: -5px;
+	right: -60px;
+}
+li.file {
+	position: relative;
+	margin-top: 15px !important!;
+	margin-bottom: 5px !important;
+}
+.download {
+	position: absolute;
+	top: -5px;
+	right: -20px;
+}
